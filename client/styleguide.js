@@ -13,14 +13,6 @@
     $('.sg-main')[0].style.top = navHeight + 'px';
     $('.sg-main iframe')[0].style.width = sizeMapping['MAX'];
 
-    $('.sg-header ul:first-child a').on('click', function(event) {
-        event.preventDefault();
-        var $el = $(event.target).closest('a'),
-            href = $el.attr('href');
-        $('.sg-main iframe').attr('src', href);
-    });
-
-
     $('[data-action-resize]').on('click', function(event) {
         event.preventDefault();
         sizeMapping.F = window.innerWidth;
