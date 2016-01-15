@@ -225,11 +225,6 @@
 
 }
 
-.sg-all,
-.sg-all body {
-    overflow-y: auto;
-}
-
 .sg-all body {
     padding-top: 0.5em;
 }
